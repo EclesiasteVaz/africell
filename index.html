@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+
+<head>
+    <meta title="Africell - Eclesiaste Vaz" 
+    content="É uma melhoria do site da africell focado apenas na pagina inicial um projecto simples, criado pelo
+    Eclesiaste Vaz em 2024/20/08">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Africell</title>
+    <link rel="stylesheet" href="./public/styles/carousel.css">
+    <link rel="stylesheet" href="./public/styles/all.css">
+    <link rel="stylesheet" href="./public/styles/side-bar.css">
+    <link rel="stylesheet" href="./public/styles/posts-plans.css">
+    <link rel="stylesheet" href="./public/styles/posts-status.css">
+    <link rel="stylesheet" href="./public/styles/post-promotion.css">
+    <link rel="stylesheet" href="./public/styles/footer.css">
+</head>
+
+<body onresize="modifyWidth()">
+    <div class="up-side-bar">
+        <ul>
+            <li> <a href="#" class="up-side-bar-link">Angola</a></li>
+            <li> <a href="#" class="up-side-bar-link">Suporte</a></li>
+            <li> <a href="#" class="up-side-bar-link">Localizador de lojas</a></li>
+            <li> <a href="#" class="up-side-bar-link">Carreiras</a></li>
+            <li> <a href="#" class="up-side-bar-link">Afrivendas</a></li>
+            <li> <a href="#" class="up-side-bar-link">Africell concurso de Arte na rua do Lubango</a></li>
+        </ul>
+    </div>
+    <header class="side-bar">
+        <h1 class="africell-logo"></h1>
+        <nav>
+            <ul>
+                <li> <a href="#" class="side-bar-link in-page">Serviço</a></li>
+                <li> <a href="#" class="side-bar-link">Oferta</a></li>
+                <li> <a href="#" class="side-bar-link">Lojas Online</a></li>
+                <li> <a href="#" class="side-bar-link">Afrimoney</a></li>
+                <li> <a href="#" class="side-bar-link">Koneta</a></li>
+                <li> <a href="#" class="side-bar-link">AfriTv</a></li>
+                <li> <a href="#" class="side-bar-link">Notícias</a></li>
+            </ul>
+        </nav>
+        <div class="side-bar-btns">
+            <a href="#" class="btn-link btn">
+                Negócios
+            </a>
+            <a href="#" class="btn-link btn btn-secundary">My Africell</a>
+        </div>
+    </header>
+    <main>
+        <!--
+        Carrossell
+    -->
+        <div class="title">
+            <h2>Afri - Anúncios</h2>
+        </div>
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="bd-placeholder-img" width="100%" height="100%"
+                        src="./public/images/carroussel/AfriVendas1_1920x420px_web-banner-1536x580.jpg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" alt="Agente de vendas africell" focusable="false">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="white">Agente Africell.</h1>
+                            <p class="opacity-75 white">Não maia mais, essa é uma oputurnidade imperdível, venha fazer
+                                parte da nossa comunidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" alt="Konekta 5G"
+                        src="./public/images/carroussel/AO_konekta-1920x725-1-1536x580.jpg" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Konekta 5G</h1>
+                            <p>Não perca e desfruta da internet ilimitada, conecta-se com um Konekta 5G.</p>
+                            <p><a class="btn btn-lg btn-secundary" href="#">Como faço</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%"
+                        src="./public/images/carroussel/AfriTV_PT_1920x420px-1536x336.jpg"
+                        alt="Afritv" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="white">Agente Africell.</h1>
+                            <p class="opacity-75 white">Não maia mais, essa é uma oputurnidade imperdível, venha fazer
+                                parte da nossa comunidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" name="previous">
+                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" name="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+        <!--
+            Secção de planos em destaques
+        -->
+        <div id="section-1" class="section">
+            <div class="title">
+                <h2>Planos em destaques</h2>
+            </div>
+            <p>
+                Aproveita as nossas oputurnidades para estares conectados com os teus kambas e outros!
+            </p>
+            <div class="list-post-planos">
+                <div class="post-plano">
+                    <img src="./public/images/posts/planos/FB_IMG_17241574170972745.jpg" alt="Afrinet 1GB ">
+                    <h3>Afrinet 1GB</h3>
+                    <p>Preço: 200kz</p>
+                </div>
+                <div class="post-plano">
+                    <img src="./public/images/posts/planos/FB_IMG_17241574726463244.jpg" alt="Plano de redes sociais plus da africell">
+                    <h3>Redes sociais Plus</h3>
+                    <p>Preço: 5.000kz</p>
+                </div>
+                <div class="post-plano">
+                    <img src="./public/images/posts/planos/FB_IMG_17241574752051068.jpg" alt="Plano de redes sociais boss da africell">
+                    <h3>Redes sociais Boss</h3>
+                    <p>Preço: 10.000kz</p>
+                </div>
+            </div>
+        </div>
+        <!--
+            Secção de promoções
+        -->
+        <div id="section-2" class="section">
+            <div class="title">
+                <h2>Promoções</h2>
+            </div>
+            <p>
+                Já és nosso cliente, então já és um de nós.
+                <br>
+            </p>
+            <p>
+                Então fique de fora, pois na africell os dados são mais flexíveis para todos,
+                bonús nas recargas chegam num ponto que te deixam louco, então já entendeste,
+                confira as promoções:
+            </p>
+            <div class=" list-post-promotions">
+                <div class="post-promotion">
+                    <img src="./public/images/posts/promocoes/FB_IMG_17241574431293327.jpg" class="img-post-promotion" alt="Afrinet 1GB ">
+                    <h3>Afrimoney</h3>
+                </div>
+                <div class="post-promotion">
+                    <img src="./public/images/posts/promocoes/FB_IMG_17241574830051739.jpg" width="50" class="img-post-promotion" alt="Plano de redes sociais plus da africell">
+                    <h3>Recargas Electrónicas</h3>
+                </div>
+                <div class="post-promotion">
+                    <img src="./public/images/posts/promocoes/FB_IMG_17241626072333216.jpg" class="img-post-promotion" alt="Plano de redes sociais boss da africell">
+                    <h3>Afrimoney - Compra</h3>
+                </div>
+            </div>
+        </div>
+        <!--
+            Secção de estados semanais
+        -->
+        <div id="section-3" class="section">
+            <div class="title">
+                <h2>Estados semanais</h2>
+            </div>
+            <p class="content-section">
+                Durante uma semana, nós procuramos trazer-te novidades em postes, como o dia internacional de mulheres,
+                então fique e de uma olhada nas postagens ou estados semanais, e atualiza-te pois nós trazemos-te as 
+                novidades e passatempos sem precisares sair da tua zona de conforto e esmagares a cabeça com imensa pesquisa
+                se o dia hoje, internacional ou nacionalmente é acerca de quê?
+            </p>
+            <br>
+            <p class="content-section">
+                Africell, junto com o povo trazendo novidades e ajudando com a melhor rede ao melhor preço.
+            </p>
+            <div class="spacing"></div>
+            <div class="list-post-status">
+                <div class="post-status">
+                    <img src="./public/images/posts/estados/FB_IMG_17241574287608509.jpg" alt="Dia mundial do fotografos">
+                    <div class="post-status-content">
+                        <h3>Dia mundial do fotografo</h3>
+                        <p>
+                            O que temos a dizer é: Apreciamos cada clique que conta uma história
+                            e captura a essência dos momentos mais preciosos.
+                        </p>
+                    </div>
+                </div>
+                <div class="post-status">
+                    <img src="./public/images/posts/estados/FB_IMG_17241625816709041.jpg" alt="Angola nas Olimpiadas de 2020">
+                    <div class="post-status-content">
+                        <h3>Os desportos que Angola competiu nas Olimpiadas de 2020</h3>
+                        <p>Angola em 2020, competiu nas seguintes modalidades ou desportos: <strong>Judo, Andebol, corrida de barco a vela, Atletismo e Natação</strong></p>
+                    </div>
+                </div>
+                <div class="post-status">
+                    <img src="./public/images/posts/estados/FB_IMG_17241631587856165.jpg" alt="Africell na FILDA 2024">
+                    <div class="post-status-content">
+                        <h3>Eventos: Filda 2024</h3>
+                        <p>Neste ano Africell, fez parte da FILDA 2024. Apresentamos os nossos produtos
+                            incluindo o Konekta 5G.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn view-more">Ver mais</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="primary-section-footer">
+                <ul>
+                    <li><a href="">Ajuda</a></li>
+                    <li><a href="">Política de Privacidade</a></li>
+                    <li><a href="">Termos e condições</a></li>
+                </ul>
+                <div class="secound">
+                    <p>
+                        Encontranos nas redes sociais:
+                    </p>
+                    <div class="networks">
+                        <img src="./public/images/icons/facebook.svg" class="fb" alt="Icone do facebook">
+                        <img src="./public/images/icons/twitter.svg" class="x" alt="Icone do twitter">
+                        <img src="./public/images/icons/instagram.svg" class="insta" alt="Icone do instagram">
+                        <img src="./public/images/icons/linkedin.svg" class="linkedin" alt="Icone do Linkedin">
+                        <img src="./public/images/icons/youtube.svg" class="youtube" alt="Icone do youtube">
+                        <img src="./public/images/icons/tiktok.svg" class="tiktok" alt="Imagem do icone tiktok">
+                    </div>
+                </div>
+        </div>
+        <div class="secundary-section-footer">
+            <p>Africell Angola - Eclesiaste Vaz</p>
+            <p>&copy; Copyright - 2024</p>
+        </div>
+    </footer>
+    <div class="menu-mobile not-show">
+        <nav>
+            <ul>
+                <li> <a href="#" class="side-bar-link in-page" onclick="closeMenu()">Serviço</a></li>
+                <li> <a href="#" class="side-bar-link" onclick="closeMenu()">Oferta</a></li>
+                <li> <a href="#" class="side-bar-link" onclick="closeMenu()">Lojas Online</a></li>
+                <li> <a href="#" class="side-bar-link" onclick="closeMenu()">Afrimoney</a></li>
+                <li> <a href="#" class="side-bar-link" onclick="closeMenu()">Koneta</a></li>
+                <li> <a href="#" class="side-bar-link" onclick="closeMenu()">AfriTv</a></li>
+                <li> <a href="#" class="side-bar-link" onclick="closeMenu()">Notícias</a></li>
+            </ul>
+        </nav>
+        <div class="side-bar-btns">
+            <a href="#" class="btn-link btn">
+                Negócios
+            </a>
+            <a href="#" class="btn-link btn btn-secundary">My Africell</a>
+        </div>
+    </div>
+    <script src="./public/js/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+.list-post-promotions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.post-promotion{
+    width: 340px;
+    transition: .4s;
+} 
+
+.post-promotion:hover {
+    scale: 1.5;
+}
+
+.img-post-promotion {
+    width: 100%;
+    height:96%;
+    border-radius: 16px;
+    transition: .3s;
+}
+
+
+
+@media screen and (max-width: 1120px) {
+    .list-post-promotions {
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-between;
+    }
+    
+    .post-promotion{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .list-post-promotions {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+.post-promotion{
+    width: 50%;
+    margin-bottom: 4px;
+} 
+
+.post-promotion:hover {
+    scale: 1.5;
+}
+
+.img-post-promotion {
+    width: 90%;
+    height:96%;
+}
+
+}

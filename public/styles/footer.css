@@ -1,0 +1,125 @@
+.footer {
+    background-color: var(--text-primary);
+    padding: 0px 10%;
+}
+
+.primary-section-footer {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primary-section-footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-section-footer ul a {
+    margin: 0px 5px;
+    color: var(--site-theme);
+}
+
+.footer .secound p {
+    margin-bottom: 4px;
+    color: #f3f3f3;
+}
+
+.footer .secound img {
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.footer .secound .fb:hover {
+    background-color: var(--network-fb);
+}
+
+.footer .secound .x:hover{
+    background-color: var(--network-x);
+}
+
+.footer .secound .tiktok:hover {
+    background-color: var(--text-secundary);
+}
+
+.footer .secound .youtube:hover {
+    background-color: var(--network-youtube);
+}
+
+.footer .secound .insta:hover {
+    background-image: radial-gradient(rgb(255, 0, 76), rgb(255, 0, 200) 80%);
+}
+
+.footer .secound .linkedin:hover {
+    background-color: var(--network-linkedin);
+}
+
+.secundary-section-footer p {
+    text-align: center;
+    color: var(--color-secundary);
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        padding: 0px 2%;
+    }
+    
+    .primary-section-footer {
+        flex-direction: column;
+    }
+    
+    .primary-section-footer ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .primary-section-footer ul a {
+        margin: 0px 5px;
+        color: var(--site-theme);
+    }
+    
+    .footer .secound p {
+        margin-bottom: 4px;
+        color: #f3f3f3;
+    }
+    
+    .footer .secound img {
+        width: 30px;
+        height: 30px;
+        margin-left: 4px;
+        border-radius: 50%;
+        transition: .3s;
+    }
+    
+    .footer .secound .fb:hover {
+        background-color: var(--network-fb);
+    }
+    
+    .footer .secound .x:hover{
+        background-color: var(--network-x);
+    }
+    
+    .footer .secound .tiktok:hover {
+        background-color: var(--text-secundary);
+    }
+    
+    .footer .secound .youtube:hover {
+        background-color: var(--network-youtube);
+    }
+    
+    .footer .secound .insta:hover {
+        background-image: radial-gradient(rgb(255, 0, 76), rgb(255, 0, 200) 80%);
+    }
+    
+    .footer .secound .linkedin:hover {
+        background-color: var(--network-linkedin);
+    }
+    
+    .secundary-section-footer p {
+        text-align: center;
+        color: var(--color-secundary);
+    }
+}

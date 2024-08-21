@@ -1,0 +1,129 @@
+@font-face {
+    font-family: text-normal;
+    src: url('../fonts/instagram-sans.ttf');
+}
+
+@font-face {
+    font-family: text-title;
+    src: url('../fonts/instagram-sans-bold.ttf');
+}
+
+:root {
+    --site-theme: white; 
+    --text-primary: #272727;
+    --text-secundary: #404040;
+    --color-primary: #980e99;
+    --color-secundary: #0dd9e4;
+    --network-x:#498cf1;
+    --network-fb:#175eca;
+    --network-youtube:#ff2828;
+    --network-linkedin: #1c61e2;
+}
+
+
+* {
+    font-family: text-normal;
+    font-size: 12pt;
+    color: var(--text-secundary);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    display: block;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--site-theme);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.btn{
+    width: fit-content;
+    padding: 8px 16px;
+    margin: 3px 6px;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: var(--site-theme);
+    border: 0px ;
+}
+
+.btn-secundary {
+    
+    background-color: var(--color-secundary);
+    color: var(--site-theme);
+    border: 1px solid var(--color-secundary);
+    cursor: pointer;
+}
+
+main {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.title {
+    margin: 8px 0px;
+}
+
+.title h2 {
+    width: fit-content;
+    font-size: 24pt;
+    border-bottom: 2px solid var(--color-secundary);
+}
+
+.spacing{
+    height: 20px;
+}
+
+.up-side-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 38px;
+    background-color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000000;
+}
+
+.up-side-bar ul {
+    display: flex;
+}
+
+.up-side-bar-link {
+    font-weight: 100;
+    font-size: 10pt;
+    margin: 0px 8px;
+    color: #f3f3f3;
+}
+
+@media screen and (max-width: 1120px) {
+    main {
+        width: 94%;
+    }
+    .up-side-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    
+    main {
+        width: 98%;
+    }
+
+    .title h2  {
+        font-size: 18pt;
+    }
+}
+
+.not-show {
+    display: none;
+}
